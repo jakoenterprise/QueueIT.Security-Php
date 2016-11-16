@@ -25,7 +25,7 @@ class SessionValidationController
 		if (!$loadConfiguration)
 			return;
 
-		$iniFileName = $_SERVER['DOCUMENT_ROOT'] . "\queueit.ini";
+		$iniFileName = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . "queueit.ini";
 
 		if (!file_exists($iniFileName))
 			return;
