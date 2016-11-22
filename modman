@@ -1,3 +1,3 @@
 queueit.ini                                             /
 app/code/local/Mage/Core/Controller/Varien/Front.php    app/code/local/Mage/Core/Controller/Varien/
-QueueIT.Security-Php/QueueIT.Security/*                 lib/QueueIT.Security-Php/
+QueueIT.Security/*                 lib/QueueIT.Security-Php/QueueIT.Security/
