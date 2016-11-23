@@ -1,7 +1,8 @@
 {
     "name": "jakoenterprise/QueueIT.Security-Php",
-    "type": "magento-module",
-    "require": {
-        "magento-hackathon/magento-composer-installer": "*"
+    "autoload": {
+        "classmap": [
+            "QueueIT.Security/"
+        ]
     }
 }
