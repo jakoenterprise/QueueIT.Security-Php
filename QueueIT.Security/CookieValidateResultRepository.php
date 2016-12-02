@@ -1,4 +1,5 @@
 <?php namespace QueueIT\Security;
+require_once('QueueIt.php');
 require_once('IValidateResultRepository.php');
 require_once('ValidateResultRepositoryBase.php');
 require_once('AcceptedConfirmedResult.php');
@@ -23,7 +24,7 @@ class CookieValidateResultRepository extends ValidateResultRepositoryBase
 		if (!$loadConfiguration)
 			return;
 
-		$iniFileName = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . "queueit.ini";
+		$iniFileName = QueueIt::getIniPath();
 
 		if (!file_exists($iniFileName))
 			return;

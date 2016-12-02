@@ -1,4 +1,5 @@
 <?php namespace QueueIT\Security;
+require_once('QueueIt.php');
 require_once('Queue.php');
 require_once('ConfigurationErrorsException.php');
 require_once('CurrentUrl.php');
@@ -28,7 +29,7 @@ class QueueFactory
 		if ($queueName == null)
 			throw new InvalidArgumentException('Queue Name cannot be null or empty');
 
-		$iniFileName = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . "queueit.ini";
+		$iniFileName = QueueIt::getIniPath();
 
 		if (!file_exists($iniFileName))
 			throw new ConfigurationErrorsException('Configuration file "' . $iniFileName . '" is missing');

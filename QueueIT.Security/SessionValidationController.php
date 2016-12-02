@@ -1,4 +1,5 @@
 <?php namespace QueueIT\Security;
+require_once('QueueIt.php');
 require_once('KnownUserFactory.php');
 require_once('QueueFactory.php');
 require_once('AcceptedConfirmedResult.php');
@@ -25,7 +26,7 @@ class SessionValidationController
 		if (!$loadConfiguration)
 			return;
 
-		$iniFileName = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . "queueit.ini";
+		$iniFileName = QueueIt::getIniPath();
 
 		if (!file_exists($iniFileName))
 			return;

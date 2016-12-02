@@ -1,4 +1,5 @@
 <?php namespace QueueIT\Security;
+require_once('QueueIt.php');
 require_once('DefaultKnownUserUrlProvider.php');
 require_once('KnownUserException.php');
 require_once('InvalidKnownUserHashException.php');
@@ -26,7 +27,7 @@ class KnownUserFactory
 		if (!$loadConfiguration)
 			return;
 		
-		$iniFileName = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . "queueit.ini";
+		$iniFileName = QueueIt::getIniPath();
 		
 		if (!file_exists($iniFileName))
 			return;
