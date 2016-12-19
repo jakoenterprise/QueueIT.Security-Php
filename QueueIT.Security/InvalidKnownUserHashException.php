@@ -1,5 +1,6 @@
-<?php namespace QueueIT\Security;
-	require_once('KnownUserException.php');
+<?php
+
+namespace QueueIT\Security;
 	
 class InvalidKnownUserHashException extends KnownUserException
 {

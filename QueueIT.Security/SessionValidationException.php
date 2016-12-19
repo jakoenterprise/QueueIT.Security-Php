@@ -1,4 +1,7 @@
-<?php namespace QueueIT\Security;
+<?php
+
+namespace QueueIT\Security;
+
 class SessionValidationException extends \Exception
 {
 	private $queue;

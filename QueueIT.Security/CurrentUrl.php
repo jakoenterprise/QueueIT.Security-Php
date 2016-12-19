@@ -1,4 +1,5 @@
-<?php namespace QueueIT\Security;
+<?php
+
 function currentUrl()
 {
 	$ssl = isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on";

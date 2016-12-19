@@ -1,5 +1,6 @@
-<?php namespace QueueIT\Security;
-require_once('IValidateResult.php');
+<?php
+
+namespace QueueIT\Security;
 
 class ValidateResultBase implements IValidateResult
 {

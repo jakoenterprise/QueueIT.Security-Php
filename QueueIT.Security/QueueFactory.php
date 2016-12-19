@@ -1,10 +1,9 @@
-<?php namespace QueueIT\Security;
-require_once('QueueIt.php');
-require_once('Queue.php');
-require_once('ConfigurationErrorsException.php');
-require_once('CurrentUrl.php');
+<?php
+
+namespace QueueIT\Security;
 
 use \InvalidArgumentException;
+
 class QueueFactory
 {
 	private static $domain;

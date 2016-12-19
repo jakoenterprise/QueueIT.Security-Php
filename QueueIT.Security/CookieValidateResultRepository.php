@@ -1,11 +1,6 @@
-<?php namespace QueueIT\Security;
-require_once('QueueIt.php');
-require_once('IValidateResultRepository.php');
-require_once('ValidateResultRepositoryBase.php');
-require_once('AcceptedConfirmedResult.php');
-require_once('Md5KnownUser.php');
-require_once('Queue.php');
-require_once('IQueue.php');
+<?php
+
+namespace QueueIT\Security;
 
 class CookieValidateResultRepository extends ValidateResultRepositoryBase
 {

@@ -1,5 +1,6 @@
-<?php namespace QueueIT\Security;
-require_once('IKnownUser.php');
+<?php
+
+namespace QueueIT\Security;
 
 class Md5KnownUser implements IKnownUser
 {

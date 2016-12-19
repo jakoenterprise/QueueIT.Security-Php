@@ -1,6 +1,6 @@
-<?php namespace QueueIT\Security;
-require_once('IQueue.php');
-require_once('Version.php');
+<?php
+
+namespace QueueIT\Security;
 
 class Queue implements IQueue
 {

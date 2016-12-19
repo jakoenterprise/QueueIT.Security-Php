@@ -1,5 +1,6 @@
-<?php namespace QueueIT\Security;
-require_once('SessionValidationException.php');
+<?php
+
+namespace QueueIT\Security;
 
 class KnownUserValidationException extends SessionValidationException
 {

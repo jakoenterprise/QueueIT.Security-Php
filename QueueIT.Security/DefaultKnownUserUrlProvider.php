@@ -1,6 +1,6 @@
-<?php namespace QueueIT\Security;
-require_once('IKnownUserUrlProvider.php');
-require_once('CurrentUrl.php');
+<?php
+
+namespace QueueIT\Security;
 
 class DefaultKnownUserUrlProvider implements IKnownUserUrlProvider
 {

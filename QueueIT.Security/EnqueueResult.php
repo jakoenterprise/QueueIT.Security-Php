@@ -1,5 +1,6 @@
-<?php namespace QueueIT\Security;
-require_once('ValidateResultBase.php');
+<?php
+
+namespace QueueIT\Security;
 
 class EnqueueResult extends ValidateResultBase
 {

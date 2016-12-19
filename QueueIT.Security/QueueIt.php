@@ -2,6 +2,10 @@
 
 namespace QueueIT\Security;
 
+require_once 'CurrentUrl.php';
+require_once 'Guid.php';
+require_once 'Version.php';
+
 class QueueIt {
 
   /**

@@ -1,3 +1,3 @@
-<?php namespace QueueIT\Security;
+<?php
 define('Version', '2.0.4');
 ?>

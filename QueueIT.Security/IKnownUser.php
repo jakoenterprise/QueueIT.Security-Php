@@ -1,4 +1,7 @@
-<?php namespace QueueIT\Security;
+<?php
+
+namespace QueueIT\Security;
+
 interface IKnownUser
 {
 	public function getQueueId();

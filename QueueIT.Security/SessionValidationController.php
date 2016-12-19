@@ -1,15 +1,6 @@
-<?php namespace QueueIT\Security;
-require_once('QueueIt.php');
-require_once('KnownUserFactory.php');
-require_once('QueueFactory.php');
-require_once('AcceptedConfirmedResult.php');
-require_once('EnqueueResult.php');
-require_once('KnownUserValidationException.php');
-require_once('ExpiredValidationException.php');
-require_once('InvalidKnownUserUrlException.php');
-require_once('InvalidKnownUserHashException.php');
-require_once('CookieValidateResultRepository.php');
+<?php
 
+namespace QueueIT\Security;
 
 class SessionValidationController
 {

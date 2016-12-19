@@ -1,12 +1,6 @@
-<?php namespace QueueIT\Security;
-require_once('QueueIt.php');
-require_once('DefaultKnownUserUrlProvider.php');
-require_once('KnownUserException.php');
-require_once('InvalidKnownUserHashException.php');
-require_once('InvalidKnownUserUrlException.php');
-require_once('Md5KnownUser.php');
-require_once('RedirectType.php');
-require_once('Guid.php');
+<?php
+
+namespace QueueIT\Security;
 
 use \InvalidArgumentException, \DateTime, \DateTimeZone;
 

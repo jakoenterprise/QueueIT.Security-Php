@@ -1,4 +1,6 @@
-<?php namespace QueueIT\Security;
+<?php
+
+namespace QueueIT\Security;
 
 interface IQueue
 {

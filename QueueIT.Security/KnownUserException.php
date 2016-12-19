@@ -1,7 +1,6 @@
-<?php namespace QueueIT\Security;
-use QueueIT\Security\DefaultKnownUserUrlProvider;
+<?php
 
-require_once('DefaultKnownUserUrlProvider.php');
+namespace QueueIT\Security;
 
 class KnownUserException extends \Exception
 {
