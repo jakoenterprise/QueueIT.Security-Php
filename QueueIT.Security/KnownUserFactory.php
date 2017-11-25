@@ -161,7 +161,7 @@ class KnownUserFactory
 			return;
 		}
 		
-		throw new invalidKnownUserHashException('The hash of the request is invalid');
+		throw new InvalidKnownUserHashException('The hash of the request is invalid');
 	}	
 }
 
